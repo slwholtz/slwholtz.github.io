@@ -1,0 +1,65 @@
+html{
+    background-color: aliceblue;
+}
+header{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+.MLA {
+    margin-top: 100px;
+    padding:50px;
+    text-align: center;
+    background-image: url(./AntisemeticCollege.jpg);
+    background-size:cover;
+    font-size: 24px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    display:block;
+}
+header a{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: red;
+    background-color: silver;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    height:auto;
+}
+header h2{
+    flex:1;
+}
+section{
+    background-color: blue;
+    position:relative;
+    padding: 10px;
+    margin: 5px;
+
+}
+div{
+    background-color: white;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+    min-height: 150px;
+    width: auto;
+}
+li{
+    list-style: none;
+    margin-top: 10px;
+}
+h3{
+    text-align: center;
+}
+img{
+    width: 50%;
+}
