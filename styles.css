@@ -54,12 +54,63 @@ div{
     width: auto;
 }
 li{
-    list-style: none;
+    list-style: square;
+    list-style-position: inside;
     margin-top: 10px;
+    font-size: 20px;
 }
 h3{
     text-align: center;
+    font-size: 30px;
+    color: yellow;
+    background-color: black;
 }
 img{
     width: 50%;
+}
+#Works{
+    text-align: center;
+}
+.workscited{
+    text-align: left;
+}
+#example{
+    background-image: url(./swastika-e1478808882890.jpg);
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-size: cover;
+}
+#example h3{
+    color: yellow;
+}
+#example li{
+    color: white;
+}
+#oct{
+    background-image: url(./hamas.jpg);
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-size: cover;
+    color: white;
+}
+
+#oct h3{
+    color: yellow;
+}
+p{
+    font-size: 20px;
+}
+#antizionism{
+    background-image: url(./_89496007_protest_getty.jpg);
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-size: cover;
+    color: white;
+}
+#antizionism p{
+    background-color: black;
+    opacity: 70%;
+}
+#antizionism h3{
+    color: yellow;
 }
